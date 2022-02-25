@@ -1,4 +1,4 @@
-// package sampleCode.ElevensLab.Activity1;
+ package sampleCode.ElevensLab.Activity1;
 
 
 /**
@@ -7,7 +7,7 @@
  * <code>Card</code> represents a playing card.
  */
 public class Card {
-
+	String = new String
 	/**
 	 * String value that holds the suit of the card
 	 */
@@ -22,7 +22,20 @@ public class Card {
 	 * int value that holds the point value.
 	 */
 	private int pointValue;
+/**
+ * Creates a new <code>Card</code> instance.
+ *
+ * @param cardRank  a <code>String</code> value
+ *                  containing the rank of the card
+ * @param cardSuit  a <code>String</code> value
+ *                  containing the suit of the card
+ * @param cardPointValue an <code>int</code> value
 
+ *                  containing the point value of the card
+ */
+public Card(String cardRank, String cardSuit, int cardPointValue) {
+    /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+}
 	/**
 	 * Sets this <code>Card's</code> suit.
 	 * @param s the new suit 

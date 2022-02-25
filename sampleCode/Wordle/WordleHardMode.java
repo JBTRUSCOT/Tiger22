@@ -25,7 +25,7 @@ public class WordleHardMode {
          System.out.println("You guessed " + guess);
          
          // TODO (Step 1): change the if condition below to check if the guess was correct
-         if (false) {
+         if (true) {
             System.out.println("You found the target word in " + i + " guesses!");
             return;
          } else {

@@ -1,3 +1,4 @@
+package studentWork.ClassesIntro;
 // package studentWork.ClassesIntro; 
 
 public class Person {
@@ -5,6 +6,7 @@ public class Person {
    String name;
    int age;
    String[] pets;
+   
    // TODO (step 3): add another field to the Person class here.
    
    

@@ -8,9 +8,9 @@ public class BankAccountClient {
       myAccount.printAccountInfo();
             
       // make an initial deposit
-      // System.out.println("\nDepositing $100");
-      // myAccount.depositMoney(100);
-      // myAccount.printAccountInfo();
+       System.out.println("\nDepositing $100");
+       myAccount.depositMoney(100);
+       myAccount.printAccountInfo();
       
       // withdraw money
       // System.out.println("\nTrying to withdraw $30");

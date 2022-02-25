@@ -1,3 +1,4 @@
+package studentWork.ClassesIntro;
 // package studentWork.ClassesIntro; 
 import java.util.ArrayList;
 
@@ -18,10 +19,16 @@ public class PersonClient {
       jim.printAge();
       
       // TODO (step 1): create a Person instance to represent yourself. Set all the fields with your own data.
+      Person truscott = new Person();
+      truscott.name = "J. Truscott";
+      truscott.age = 16;
+      truscott.pets = new String[] {"Bentley"};
       
       
       // TODO (step 2): call the behavior methods of your new Person instance (similar to what was done with the `jim` object);
-      
+      truscott.printIntroduction();
+      truscott.printAge();
+      truscott.printPetCount();
       
       // TODO (step 5): set the value of the field you created in step 3 for both the `jim` object and the Person with your data.
       

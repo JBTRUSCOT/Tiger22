@@ -1,3 +1,5 @@
+package sampleCode.ElevensLab.Activity2;
+
 import java.util.ArrayList;
 
 /**
@@ -29,6 +31,7 @@ public class Deck {
 	 * @param values is an array containing all of the card point values.
 	 */
 	public Deck(String[] ranks, String[] suits, int[] values) {
+		
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
 	}
 
