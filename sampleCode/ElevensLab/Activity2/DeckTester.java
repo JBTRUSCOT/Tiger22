@@ -1,6 +1,6 @@
 package sampleCode.ElevensLab.Activity2;
 // * This is a class that tests the Deck class.
- */
+
 public class DeckTester {
 
 	/**
@@ -12,7 +12,7 @@ public class DeckTester {
 		String [] suit = {"Hearts", "Diamond", "Clubs", "Spades"};
 		int [] points = {11, 13, 12};
 
-		Deck X = new Deck(ranks, suit, points);
+		Deck Xtra = new Deck(ranks, suit, points);
 			
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
 	}
